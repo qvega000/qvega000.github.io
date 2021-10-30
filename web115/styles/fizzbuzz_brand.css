@@ -8,12 +8,11 @@ html {
 }
 
 body  {
-	margin: 0, 20%;
+	margin: 0 20%;
 	background-color: #DEE2E6;
 	opacity: 0.9;
 	text-align: center;
 	color: black;
-
 }
 
 h1 { color: #10497E;

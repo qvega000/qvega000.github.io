@@ -1,13 +1,12 @@
-a { color: hsl(360, 25%, 25%);
+a { color: #614d42;
 }
 
-body { background-color: hsl(240, 25%, 70%);
-color: hsl(360, 25%, 25%);
-font-family: Verdana, sans-serif;
+body { background-color: #FFE8D6;
+color: #614d42;
+font-family: 'Eagle Lake', cursive;
 font-size: 15px;
-border: 2px solid hsl(360, 25%, 25%);
-margin: 1% 5%;
-text-align: center;
+border: 2px solid #C3B1A7;
+margin: 1% 5%; 
 }
 
 
@@ -18,10 +17,14 @@ figcaption { text-align: center;
 font-style: italic
 }
 
-li { margin: 5px 0px;
+dt {
+	font-weight: bold;
 }
 
-footer { border-top: 2px solid hsl(360, 25%, 25%);
+dt, dd { margin: 10px 0px;
+}
+
+footer { border-top: 2px solid #C3B1A7;
 text-align: center;
 }
 
@@ -37,6 +40,4 @@ table, th, td {
   border: 1px dashed black;
 }
 
-ul {
-	list-style-type: none;
-}
+
