@@ -3,7 +3,7 @@ function getData()
 {
 	var firstName = document.getElementById('firstName').value;
 	var middleName = document.getElementById('middleName').value;
-	var lastname = document.getElementById('lastName').value;
+	var lastName = document.getElementById('lastName').value;
 	var counter = 140;
 	if (middleName)
 	{
@@ -18,7 +18,7 @@ function getData()
 function believeIT(counter)
 {
 	
-	for (let i = 1; i <= counter; i++)		
+	for (var i = 1; i <= counter; i++)		
 	{
 		var counterTag;
 		

@@ -1,16 +1,16 @@
 
 function getData()
 {
-	let firstName = document.getElementById('fname').value;
-	let middleName = document.getElementById('mname').value;
-	let lastname = document.getElementById('lname').value;
+	var firstName = document.getElementById('firstName').value;
+	var middleName = document.getElementById('middleName').value;
+	var lastName = document.getElementById('lastName').value;
 	
 	if (middleName)
 	{
-		document.getElementById("greeting").textContent = `Welcome to Trade Template, ${firstName} ${middleName} ${lastname}!`;
+		document.getElementById("greeting").textContent = `Welcome to Trade Template, ${firstName} ${middleName} ${lastName}!`;
 	} else
 	 {
-		document.getElementById("greeting").textContent = `Welcome to Trade Template, ${firstName} ${lastname}!`;
+		document.getElementById("greeting").textContent = `Welcome to Trade Template, ${firstName} ${lastName}!`;
 	 }
 	 
 	var userCount = prompt(`How high do you want to count, ${firstName}?`);
