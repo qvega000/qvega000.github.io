@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>SWTL Demonstrate Chapters 61-70 - Quentin Vega - WEB115</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../styles/swtl.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="https://qvega000.github.io/web115/toc.html" target="_blank">Table of Contents</a> |
+				<a href="swtl_demo_1-10.html" target="blank"> Chapter 1-10</a> |
+				<a href="swtl_demo_11-20.html" target="blank"> Chapter 11-20</a> |
+				<a href="swtl_demo_21-30.html" target="blank"> Chapter 21-30</a> |
+				<a href="swtl_demo_31-40.html" target="blank"> Chapter 31-40</a> |
+				<a href="swtl_demo_41-50.html" target="blank"> Chapter 41-50</a> |
+				<a href="swtl_demo_51-60.html" target="blank"> Chapter 51-60</a> |
+				<a href="swtl_demo_61-70.html" target="blank"> Chapter 61-70</a> |
+				<a href="swtl_demo_71-80.html" target="blank"> Chapter 71-80</a> |
+				<a href="swtl_demo_81-19.html" target="blank"> Chapter 81-89</a> |
+			</nav>
+		</header>
+		<main>
+			<h2>Smarter Way to Learn JS 61-70</h2>
+			<br>
+			<h3>Chapter 61. The DOM: Junk artifacts and nodeType</h3>
+				<p>var parentNode = document.getElementById("div4");<br/>
+				var targetNode = parentNode.childNodes[8];<br/>
+				var nType = targetNode.nodeType;</p>
+			<h3>Chapter 62. The DOM: More ways to target elements</h3>
+				<p>var targetDiv = document.getElementById("div2");<br/>
+				var momOfDiv = targetDiv.parentNode;</p>
+			<h3>Chapter 63. The DOM: Getting a target's name</h3>
+				<p>var nName = document.getElementById("link5").nodeName;</p>
+			<h3>Chapter 64. The DOM: Counting elements</h3>
+				<p>var nodeList = document.getElementById("div2").childNodes;</p>
+			<h3>Chapter 65. The DOM: Attributes</h3>
+				<p>var targetPic = document.getElementById("pic12");<br/>
+				var hasHeight = targetPic.hasAttribute("height");</p>
+			<h3>Chapter 66. The DOM: Attribute names and values</h3>
+				<p>var target = document.getElementById("div1");<br/>
+				var atts = target.attributes;</p>
+			<h3>Chapter 67. The DOM: Adding nodes</h3>
+				<p>var newElement = document.createElement("j");</p>
+			<h3>Chapter 68. The DOM: Inserting nodes</h3>
+				<p>var newParagraph = document.createElement("p");<br/>
+				div7.insertBefore(newParagraph, div7.firstChild);</p>
+			<h3>Chapter 69. Objects</h3>
+				<p>var shoe12 =<br/>
+				{<br/>
+				shoe: "boots",<br/>
+				bestColor: black<br/>
+				};<br/>
+				</p>
+			<h3>Chapter 70. Objects: Properties</h3>
+				<p>var shoe10 =<br/>
+				{<br/>
+				shoe: "sneakers",<br/>
+				bestColor: red<br/>
+				};<br/>
+				shoe.popularity = 7;</p>
+		</main>
+		<footer>
+			<br/>Designed by Vega Incorporated, &copy;2020
+			<br/>
+			<br/>
+			<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fqvega000.github.io%2Fweb115%2Fswtl%2Fswtl_demo_51-60.html">
+				<img src="../images/html5button.png" alt="Validate HTML" /></a>
+			<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fqvega000.github.io%2Fweb115%2Fswtl%2Fswtl_demo_51-60.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+				<img src="../images/vcss-blue.png" alt="Validate CSS" /></a>
+		</footer>
+	</body>
+</html>
