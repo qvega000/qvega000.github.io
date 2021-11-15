@@ -1,0 +1,823 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing:	border-box;
+    border: none;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: 0;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+	vertical-align: baseline;
+	background: transparent;
+}
+body{
+	line-height: 1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+	display: block;
+}
+li{
+	list-style-type: none;
+}
+blockquote, q{
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after{
+	content: '';
+	content: none;
+}
+a{
+	text-decoration: underline;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+a:hover{
+	text-decoration: none;
+}
+/* change colors to suit your needs */
+ins{
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+/* change colors to suit your needs */
+mark{
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+del{
+	text-decoration: line-through;
+}
+abbr[title], dfn[title]{
+	border-bottom: 0.063rem dotted;
+	cursor: help;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr{
+	display: block;
+	height: 0.063rem;
+	border: 0;
+	border-top: 0.063rem solid #cccccc;
+	margin: 1rem 0;
+	padding: 0;
+}
+input, select{
+	vertical-align: middle;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+/* end of stylesheet reset */
+body{
+    background: #212121;
+}
+/* start of the styles for the content area */
+#main-wrap{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+	font-family: 'Dancing Script', cursive; /* Google Font */
+    background: url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#main-wrap .main-pane{
+    width: 100%;
+    margin: 0;
+}
+#main-wrap .main-pane .main-content{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding: 0;
+}
+#main-wrap .main-pane .main-content h1{
+	text-align: center;
+	margin: 0;
+	padding: .5rem;
+    line-height: 4.3rem;
+	font-size: 4rem;
+	font-weight: normal;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #fff;
+    text-shadow: .25rem .25rem 0 #212121;
+}
+#main-wrap .main-pane .main-content h2{
+	text-align: center;
+	margin: auto;
+	padding: .5rem;
+    line-height: 3.3rem;
+	font-size: 3em;
+	font-weight: normal;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #fff;
+}
+#main-wrap .main-pane .reservation_button{
+	width: 14.5rem;
+	margin: 0 auto;
+	padding: 2rem 0;
+}
+#main-wrap .main-pane .reservation_button button{
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #efefef;
+	width: 12.2rem;
+	height: 3rem;
+	margin: 0;
+	padding: 0;
+	border-radius: .5rem;
+	border: 0.125rem solid #fff;
+	background: #000;
+}
+#main-wrap .main-pane .reservation_button button:hover{
+	color: #fff;
+	background: darkgreen;
+}
+/* end of the styles for the content area */
+/* start of about us area */
+#about-us-outer{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: .5rem 0;
+    border: none;
+    background: #f8f0e8;
+}
+#about-us-outer .about-us-inner{
+    width: 62.5rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+}
+#about-us-outer .about-us-inner .about-us-left{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+#about-us-outer .about-us-inner .about-us-right{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+#about-us-outer .about-us-inner figure{
+    width: 25rem;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#about-us-outer .about-us-inner img{
+    max-width: 25rem;
+    max-height: 25rem;
+	margin: 1rem auto;
+	padding: 0;
+}
+#about-us-outer .about-us-inner h3{
+	text-align: left;
+	margin: 0;
+	padding: .5rem;
+    line-height: 3.3rem;
+	font-size: 3rem;
+	font-weight: bold;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: darkgreen;
+}
+#about-us-outer .about-us-inner p{
+    text-align: left;
+	margin: 0;
+	padding: .5rem;
+    line-height: 1.6rem;
+	font-size: 1.3rem;
+	font-weight: normal;
+	font-family: arial, helvetica, sans-serif;
+	color: #000;
+}
+#about-us-outer .about-us-inner p a{
+    text-decoration: underline;
+    color: #000;
+}
+#about-us-outer .about-us-inner p a:hover{
+    text-decoration: none;
+}
+/* end of about us area */
+/* start of styles for text area */
+.text-wrap{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+    border: none;
+    background: darkgreen;
+}
+.text-wrap .inner-text-wrap{
+    max-width: 50rem;
+	height: auto;
+	margin: 0 auto;
+	padding: 2rem .5rem;
+}
+.text-wrap .inner-text-wrap h3{
+	text-align: center;
+	margin: 0;
+	padding: .5rem;
+	line-height: 3.3rem;
+	font-size: 3rem;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: normal;
+	color: #fff;
+}
+.text-wrap .inner-text-wrap p{
+    text-align: left;
+	margin: 0;
+	padding: .5rem;
+	line-height: 1.8rem;
+	font-size: 1.5rem;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	color: #fff;
+}
+.text-wrap .inner-text-wrap p a{
+	text-decoration: underline;
+	color: #000;
+}
+.text-wrap .inner-text-wrap p a, .text-wrap .inner-text-wrap p a:hover{
+	text-decoration: none;
+	color: #000;
+}
+/* end of styles for the text area */
+/* start of the styles for the profile pictures area */
+#services-intro{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 1rem 0;
+    border: none;
+    background: darkgreen;
+}
+#services-intro .services-intro-inner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 72rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+}
+#services-intro .services-intro-div{
+    width: 15.625rem;
+    height: auto;
+    margin: 0 1rem;
+    padding: 1rem 0;
+}
+#services-intro .services-intro-div figure img{
+    width: 15.625rem;
+    height: 15.625rem;
+	margin: 0;
+	padding: 0;
+	border: .5rem solid #ccc;
+	border-radius: 100%;
+}
+#services-intro .services-intro-div h4{
+	text-align: center;
+	margin: 0;
+	padding: .5rem;
+    height: auto;
+	line-height: 2rem;
+	font-size: 1.7rem;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: normal;
+	color: #fff;
+}
+#services-intro .services-intro-div p{
+    text-align: left;
+	margin: 0;
+	padding: .5rem;
+	line-height: 1.6rem;
+	font-size: 1.3rem;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	color: #fff;
+}
+#services-intro .services-intro-div p a{
+    text-decoration: underline;
+    color: #fff;
+}
+#services-intro .services-intro-div p a:hover{
+    text-decoration: none;
+}
+/* end of the styles for the profile pictures area */
+/* start of the styles for the services area */
+#services-area-wrap{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: #f8f0e8;
+}
+#services-area-wrap .services-content{
+    max-width: 62.5rem;
+    height: auto;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0;
+}
+#services-area-wrap .services-content .service{
+    flex: 1;
+    max-width: 50rem;
+    margin: 1rem 0 3rem 0;
+    padding: 0;
+}
+#services-area-wrap .services-content .service figure{
+    width: 31.25rem;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+#services-area-wrap .services-content .service figure img{
+    max-width: 25rem;
+    max-height: 25rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border: .5rem solid darkgreen;
+}
+#services-area-wrap .services-content .service h3{
+    text-align: center;
+	margin: 0;
+	padding: 0 1rem .5rem 0;
+	color: darkgreen;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: arial, helvetica, sans-serif;
+}
+#services-area-wrap .services-content .service h4{
+    text-align: left;
+	margin: 0;
+	padding: 0 1rem .5rem 0;
+	color: darkgreen;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: arial, helvetica, sans-serif;
+}
+#services-area-wrap .services-content .service h3{
+    display: none;
+}
+#services-area-wrap .services-content .service h4{
+    display: block;
+}
+#services-area-wrap .services-content .service p{
+    text-align: left;
+	margin: 0;
+	padding: .5rem 0;
+	color: #000;
+	font-size: 1.2rem;
+	font-weight: normal;
+	font-family: arial, helvetica, sans-serif;
+}
+#services-area-wrap .services-content .service a{
+    text-decoration: underline;
+    color: #000;
+}
+#services-area-wrap .services-content .service a:hover{
+    text-decoration: none;
+}
+/* end of the styles for the services area */
+/* start of styles for the image gallery area */
+#image-gallery-outside-wrapper{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+    border: none;
+    background: darkgreen;
+}
+#image-gallery-outside-wrapper .image-gallery-inside-wrapper{
+	display: block;
+	max-width: 62.5rem;
+	margin: 0 auto;
+	padding: 0;
+}
+#image-gallery-outside-wrapper .image-gallery-inside-wrapper h3{
+	text-align: center;
+    margin: 0;
+	padding: 1rem .5rem;
+	color: #fff;
+    line-height: 2.8rem;
+	font-size: 2.5rem;
+	font-weight: bold;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+#image-gallery-outside-wrapper .image-gallery-inside-wrapper p{
+    text-align: center;
+	margin: 0;
+	padding: 0.5rem;
+    line-height: 1.8rem;
+	font-size: 1.5rem;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+	color: #fff;
+}
+#image-gallery-outside-wrapper .image-gallery-inside-wrapper p a{
+	text-decoration: underline;
+	color: #fff;
+}
+#image-gallery-outside-wrapper .image-gallery-inside-wrapper p a:hover{
+	text-decoration: none;
+}
+/* end of styles for the image gallery area */
+/* start of styles for the centered phone area */
+.phone-area{
+	clear: both;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: .5rem 0;
+    border: none;
+    background: #f8f0e8;
+}
+.phone-area .inner-phone-area{
+	text-align: center;
+	width: 21rem;
+	min-height: 9rem;
+	margin: 0 auto;
+	padding: 0 0 0 4.688rem;
+	background: url("../images/phone.png") 0 1.1em no-repeat;
+}
+.phone-area .inner-phone-area h3{
+	margin: 0;
+	padding: 0.313rem 0;
+    line-height: 2.8rem;
+	font-size: 2.5rem;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: bold;
+	color: darkgreen;
+}
+.phone-area .inner-phone-area p{
+	margin: 0;
+	padding: 0.313rem 0;
+	color: #000;
+    line-height: 2.1rem;
+	font-size: 1.8rem;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: normal;
+}
+/* end of styles for the centered phone area */
+/* start of the address area styles */
+#address{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: .5rem 0;
+    border: none;
+    background: #f8f0e8;
+}
+#address p{
+	text-align: center;
+	margin: 0;
+	padding: .5rem;
+    line-height: 1.7rem;
+	font-size: 1.4rem;
+	font-weight: normal;
+	font-family: arial, tahoma, sans-serif;
+	color: #000;
+}
+/* end of the address area styles */
+/* start of styles for the social media icons at the bottom */
+#follow-wrap{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 1rem 0;
+    display: flex;
+    border: none;
+    background: #f8f0e8;
+}
+#follow-wrap #follow{
+	height: auto;
+	margin: auto;
+	padding: 0;
+}
+#follow-wrap #follow h3{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 0 .3rem 0;
+    line-height: 2.8rem;
+	font-size: 2.5rem;
+	font-weight: normal;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: darkgreen;
+}
+#follow-wrap #follow a img{
+	margin: 0 0 0 0.313rem;
+	padding: 0;
+	opacity: .4;
+	border: .2rem solid #ccc;
+	border-radius: 100%;
+	transition: all 0.5s;
+}
+#follow-wrap #follow a img:hover{
+	border: .2rem solid #212121;
+	opacity: 1;
+	transform: scale(1.5);
+}
+/* end of styles for the social media icons at the bottom */
+/* start of styles for the footer */
+#footer-wrap{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 1.5rem 0;
+	border: none;
+	outline: none;
+    background: #f8f0e8;
+}
+#footer-wrap p{
+	text-align: center;
+	margin: 0;
+	padding: .2rem .2rem .5rem .2rem;
+    line-height: 1.3rem;
+	font-size: 1rem;
+	font-family: arial, tahoma, sans-serif;
+	color: #000;
+}
+#footer-wrap p a{
+    text-decoration: underline;
+    color: #000;
+}
+#footer-wrap p a:hover{
+    text-decoration: none;
+}
+/* end of styles for the footer */
+/* start of light brown with leaves icon section */
+.light-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8.75rem; /* 140px */
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: #f8f0e8;
+}
+.light-wrap figure{
+    width: 8rem;
+    height: 8rem;
+    margin: 0;
+    padding: 0;
+}
+.light-wrap figure img{
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+/* end of light brown with leaves icon section */
+/* start of light brown / dark green section */
+.light-dark-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: url("../images/light-dark-bg.png") center center repeat-x;
+}
+.light-dark-wrap figure{
+    width: 8rem;
+    height: 8rem;
+    margin: 0;
+    padding: 0;
+}
+.light-dark-wrap figure img{
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+/* end of light brown / dark green section */
+/* start of dark green / light brown section */
+.dark-light-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: url("../images/dark-light-bg.png") center center repeat-x;
+}
+.dark-light-wrap figure{
+    width: 8rem;
+    height: 8rem;
+    margin: 0;
+    padding: 0;
+}
+.dark-light-wrap figure img{
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+/* end of dark green / light brown section */
+.clear{
+    clear: both;
+}
+@media(max-width: 72rem){ /* 1,200px */
+    #services-intro .services-intro-inner{
+        width: 100%;
+    }
+}
+@media(max-width: 62.5rem){ /* 1,000px */
+    #about-us-outer .about-us-inner{
+        flex-direction: column;
+        width: 50rem;
+        padding: 1.5rem .5rem
+    }
+    #about-us-outer .about-us-inner h3{
+        text-align: center;
+    }
+    #about-us-outer .about-us-inner .about-us-left{
+        order: 2;
+    }
+    #about-us-outer .about-us-inner .about-us-right{
+        order: 1;
+    }
+    #services-area-wrap .services-content{
+        max-width: 100%;
+        flex-direction: column;
+        display: flex;
+        margin: 0 auto 3rem auto;
+    }
+    #services-area-wrap .services-content .service{
+        margin: .5rem 0 0 0;
+        padding: 0 1rem;
+    }
+    #services-area-wrap .services-content .service .one{
+        order: 1;
+    }
+    #services-area-wrap .services-content .service .two{
+        order: 2;
+    }
+    #services-area-wrap .services-content .service figure{
+        max-width: 31.25rem;
+    }
+    #services-area-wrap .services-content .service figure img{
+        max-width: 100%;
+    }
+    #services-area-wrap .services-content .service h3{
+        display: block;
+    }
+    #services-area-wrap .services-content .service h4{
+        display: none;
+    }
+    #services-area-wrap .services-content .one{
+        order: 1;
+    }
+    #services-area-wrap .services-content .two{
+        order: 2;
+    }
+}
+@media(max-width: 50rem){ /* 800px */
+    #main-wrap .main-pane .main-content h1{
+        line-height: 3.8rem;
+        font-size: 3.5rem;
+    }
+    #main-wrap .main-pane .main-content h2{
+        line-height: 3.1rem;
+        font-size: 2.8em;
+    }
+    #about-us-outer .about-us-inner{
+        width: 100%;
+    }
+    #about-us-outer .about-us-inner .about-us-left figure, #about-us-outer .about-us-inner .about-us-right figure{
+        max-width: 90%;
+        height: auto;
+    }
+    #about-us-outer .about-us-inner h3{
+        line-height: 2.8rem;
+        font-size: 2.5rem;
+    }
+    #about-us-outer .about-us-inner p{
+        line-height: 1.4rem;
+        font-size: 1.1rem;
+    }
+    .text-wrap .inner-text-wrap h3{
+        line-height: 2.8rem;
+        font-size: 2.5rem;
+    }
+    .text-wrap .inner-text-wrap p{
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+    }
+    #services-intro .services-intro-div{
+        width: 37.5rem; /* 600px */
+    }
+    #services-intro .services-intro-div h4{
+        height: auto;
+        line-height: 1.9rem;
+        font-size: 1.6rem;
+    }
+    #services-intro .services-intro-div p{
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+    }
+    #services-area-wrap .services-content .service h3{
+        font-size: 1.5rem;
+    }
+    #services-area-wrap .services-content .service h4{
+        font-size: 1.5rem;
+    }
+    #services-area-wrap .services-content .service p{
+        font-size: 1.1rem;
+    }
+    #image-gallery-outside-wrapper .image-gallery-inside-wrapper h3{
+        line-height: 2.4rem;
+        font-size: 2.1rem;
+    }
+    #image-gallery-outside-wrapper .image-gallery-inside-wrapper p{
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .phone-area .inner-phone-area h3{
+        line-height: 2.3rem;
+        font-size: 2rem;
+    }
+    .phone-area .inner-phone-area p{
+        font-size: 1.6rem;
+    }
+    #address p{
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+    }
+    #follow-wrap #follow h3{
+        line-height: 2.3rem;
+        font-size: 2rem;
+    }
+    #footer-wrap p{
+        line-height: 1.3rem;
+        font-size: 1rem;
+    }
+}
+@media(max-width: 37.5rem){
+    #services-intro .services-intro-div{
+        width: 100%;
+    }
+}
+@media(max-width: 31.25rem){ /* 500px */
+    #services-area-wrap .services-content .service figure{
+        max-width: 100%;
+        padding: .5rem;
+    }
+}
