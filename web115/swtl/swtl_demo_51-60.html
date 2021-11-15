@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>SWTL Demonstrate Chapters 41-50 - Quentin Vega - WEB115</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../styles/swtl.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="https://qvega000.github.io/web115/toc.html" target="_blank">Table of Contents</a> |
+				<a href="swtl_demo_1-10.html" target="blank"> Chapter 1-10</a> |
+				<a href="swtl_demo_11-20.html" target="blank"> Chapter 11-20</a> |
+				<a href="swtl_demo_21-30.html" target="blank"> Chapter 21-30</a> |
+				<a href="swtl_demo_31-40.html" target="blank"> Chapter 31-40</a> |
+				<a href="swtl_demo_41-50.html" target="blank"> Chapter 41-50</a> |
+				<a href="swtl_demo_51-60.html" target="blank"> Chapter 51-60</a> |
+				<a href="swtl_demo_61-70.html" target="blank"> Chapter 61-70</a> |
+				<a href="swtl_demo_71-80.html" target="blank"> Chapter 71-80</a> |
+				<a href="swtl_demo_81-19.html" target="blank"> Chapter 81-89</a> |
+			</nav>
+		</header>
+		<main>
+			<h2>Smarter Way to Learn JS 41-50</h2>
+			<br>
+			<h3>Chapter 51: Reading and setting paragraph text</h3>
+				<p>var textToPlace = "Hello!";<br/>
+				document.getElementById("opening").innerHTML = textToPlace;</p>
+			<h3>Chapter 52: Manipulating images and text</h3>
+				<p>document.getElementById("image1").className = "Nine";</p>
+			<h3>Chapter 53: Swapping images</h3>
+				<p>document.getElementById(photoID).src = nextPhoto;</p>
+			<h3>Chapter 54: Swapping images and setting classes</h3>
+				<p>var picToReplace = document.getElementById(photo1ID);<br/>
+				picToReplace.src = photo2;</p>
+			<h3>Chapter 55: Setting styles</h3>
+				<p>&lta href="JavaScript:void(0)" onClick/&gt </p>
+			<h3>Chapter 56: Target all elements by tag name</h3>
+				<p>var header = document.getElementsByTagName("h2");<br/>
+				for (var i = 0; i &60 header.length; i++)<br/>
+				}<br/>
+				header[i].className = "variant";<br/>
+				}</p>
+			<h3>Chapter 57: Target some elements by tag name</h3>
+				<p>var sizeDiv = document.getElementById("div8");<br/>
+				var optDivs = sizeDiv.getElementsByTagName("div");</p>
+			<h3>Chapter 58: The Document Oject Model(DOM)</h3>
+				<p>There are 5 nodes in this excerpt of code:<br/>
+				&ltdiv&gt<br/>
+				&lth1&gtHairstyles&lt/h1&gt <br/>
+				&ltp&gt<br/>
+				Long, Short, Curly etc.<br/>
+				&lt/p&gt <br/>
+				&lt/div&gt </p>
+			<h3>Chapter 59: The DOM: Parents and children</h3>
+				<p>"Long, Short, Curly etc." is the child of &ltp&gt<br/>
+				&ltdiv&gt<br/>
+				&lth1&gtHairstyles&lt/h1&gt <br/>
+				&ltp&gt<br/>
+				Long, Short, Curly etc.<br/>
+				&lt/p&gt <br/>
+				&lt/div&gt </p>
+			<h3>Chapter 60: The DOM: Finding Child</h3>
+				<p>var a1 = document.childNodes[3].childNodes[4].childNodes[2];</p>
+		</main>
+		<footer>
+			<br/>Designed by Vega Incorporated, &copy;2020
+			<br/>
+			<br/>
+			<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fqvega000.github.io%2Fweb115%2Fswtl%2Fstwl_demo_31-40.html">
+				<img src="../images/html5button.png" alt="Validate HTML" /></a>
+			<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fqvega000.github.io%2Fweb115%2Fswtl%2Fstwl_demo_31-40.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+				<img src="../images/vcss-blue.png" alt="Validate CSS" /></a>
+		</footer>
+	</body>
+</html>
