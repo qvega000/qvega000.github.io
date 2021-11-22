@@ -1,4 +1,3 @@
-
 function getData()
 {
 	var firstName = document.getElementById('firstName').value;
@@ -7,7 +6,7 @@ function getData()
 	
 	var firstDivisor = 3;
 	var secondDivisor = 5;
-	var thridDivisor = 7;
+	var thirdDivisor = 7;
 	var counter = 140;
 	
 	if (middleName)
@@ -18,7 +17,7 @@ function getData()
 		document.getElementById("greeting").textContent = `Welcome to Trade Template, ${firstName} ${lastName}!`;
 	 } 
 	
-	believeIT(counter, firstDivisor, secondDivisor, thridDivisor);
+	believeIT(counter, firstDivisor, secondDivisor, thirdDivisor);
 }
 
 function believeIT(counter, firstDivisor, secondDivisor, thridDivisor)
@@ -28,10 +27,10 @@ function believeIT(counter, firstDivisor, secondDivisor, thridDivisor)
 	{
 		var counterTag;
 		
-		if (checkDivison(i, firstDivisor) && checkDivison(i, secondDivisor)  && checkDivison(i, thridDivisor))
+		if (checkDivison(i, firstDivisor) && checkDivison(i, secondDivisor)  && checkDivison(i, thirdDivisor))
 		{ 
 			counterTag = 'Live IT'; 
-		} else if (checkDivison(i, thridDivisor) && checkDivison(i, secondDivisor))
+		} else if (checkDivison(i, thirdDivisor) && checkDivison(i, secondDivisor))
 		 {
 			counterTag = 'Financial Freedom';
 		 } else if (checkDivison(i, secondDivisor) && checkDivison(i, firstDivisor))
@@ -43,7 +42,7 @@ function believeIT(counter, firstDivisor, secondDivisor, thridDivisor)
 		 } else if (checkDivison(i, secondDivisor))
 		 {
 			counterTag = 'Manifest IT';
-		 } else if (checkDivison(i, thridDivisor))
+		 } else if (checkDivison(i, thirdDivisor))
 		 {
 			counterTag = 'Plan IT';
 		 } else 
