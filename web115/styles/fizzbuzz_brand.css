@@ -56,7 +56,7 @@ footer a {
 
 /* Fizz Buzz 0 */
 
-#counter {
+.counter {
 	list-style-type: none;
 	padding: 5px;
 	column-count: 4;
