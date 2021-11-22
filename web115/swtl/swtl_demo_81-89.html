@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>SWTL Demonstrate Chapters 81-89 - Quentin Vega - WEB115</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="../styles/swtl.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="https://qvega000.github.io/web115/toc.html" target="_blank">Table of Contents</a> |
+				<a href="swtl_demo_1-10.html" target="blank"> Chapter 1-10</a> |
+				<a href="swtl_demo_11-20.html" target="blank"> Chapter 11-20</a> |
+				<a href="swtl_demo_21-30.html" target="blank"> Chapter 21-30</a> |
+				<a href="swtl_demo_31-40.html" target="blank"> Chapter 31-40</a> |
+				<a href="swtl_demo_41-50.html" target="blank"> Chapter 41-50</a> |
+				<a href="swtl_demo_51-60.html" target="blank"> Chapter 51-60</a> |
+				<a href="swtl_demo_61-70.html" target="blank"> Chapter 61-70</a> |
+				<a href="swtl_demo_71-80.html" target="blank"> Chapter 71-80</a> |
+				<a href="swtl_demo_81-19.html" target="blank"> Chapter 81-89</a> |
+			</nav>
+		</header>
+		<main>
+			<h2>Smarter Way to Learn JS 81-89</h2>
+			<br>
+			<h3>Chapter 81. Browser control: Testing for popup blockers</h3>
+				<p>if (testPop === null || typeof(testPop) === "undefined")<br/>
+				{<br/>
+				};</p>
+			<h3>Chapter 82. Form validation: text fields</h3>
+				<p>if (document.getElementById("field1").value.length === 0)<br/>
+				{<br/>
+				};</p>
+			<h3>Chapter 83. Form validation: drop-downs</h3>
+				<p>&lt;form onSubmit="return checkForSelection();"&gt;<br/>
+				&lt;select id="states"&gt;</p>
+			<h3>Chapter 84. Form validation: radio buttons</h3>
+				<p>var bGroup = document.getElementsByName("b1");
+				if (radios[i].checked)<br/>
+				{<br/>
+				return true<br/>
+				};</p>
+			<h3>Chapter 85. Form validation: ZIP codes</h3>
+				<p>var fieldToCheck = document.getElementById("zip");<br/>
+				var numCharacters = fieldToCheck.value.length;<br/>
+				if (numCharacters &lt; 5)<br/>
+				{<br/>
+				}</p>
+			<h3>Chapter 86. Form validation: email</h3>
+				<p>if (val.indexOf(".") - val.indexOf("@") &gt; 1)<br/>
+				{<br/>
+				}</p>
+			<h3>Chapter 87. Exceptions: try and catch</h3>
+				<p>try<br/>
+				{<br/>
+				var tot = firstNumber + secondNumber;<br/>
+				}<br/>
+				catch(jsError)<br/>
+				{<br/>
+				alert(jsError);<br/>
+				}</p>
+			<h3>Chapter 88. Exceptions: throw</h3>
+				<p>if (score &lt; 100)<br/>
+				{<br/>
+				throw "It doesn't add up.";<br/>
+				}</p>
+			<h3>Chapter 89. Handle events within JavaScript</h3>
+				<p>var fieldToCheck = document.getElementById("f1");<br/>
+				fieldToCheck.onfocus = checkIt;</p>
+		</main>
+		<footer>
+			<br/>Designed by Vega Incorporated, &copy;2020
+			<br/>
+			<br/>
+			<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fqvega000.github.io%2Fweb115%2Fswtl%2Fswtl_demo_81-89.html">
+				<img src="../images/html5button.png" alt="Validate HTML" /></a>
+			<a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fqvega000.github.io%2Fweb115%2Fswtl%2Fswtl_demo_81-89.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+				<img src="../images/vcss-blue.png" alt="Validate CSS" /></a>
+		</footer>
+	</body>
+</html>
