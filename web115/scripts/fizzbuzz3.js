@@ -20,7 +20,7 @@ function getData()
 	believeIT(counter, firstDivisor, secondDivisor, thirdDivisor);
 }
 
-function believeIT(counter, firstDivisor, secondDivisor, thridDivisor)
+function believeIT(counter, firstDivisor, secondDivisor, thirdDivisor)
 {
 	
 	for (var i = 1; i <= counter; i++)		
