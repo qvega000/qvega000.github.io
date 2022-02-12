@@ -1,0 +1,42 @@
+a { color: hsl(360, 25%, 25%);
+}
+
+body { background-color: hsl(240, 25%, 70%);
+color: hsl(360, 25%, 25%);
+font-family: Verdana, sans-serif;
+font-size: 15px;
+border: 2px solid hsl(360, 25%, 25%);
+margin: 1% 5%;
+text-align: center;
+}
+
+
+address, div, header, h2, figure { text-align: center;
+}
+
+figcaption { text-align: center;
+font-style: italic
+}
+
+li { margin: 5px 0px;
+}
+
+footer { border-top: 2px solid hsl(360, 25%, 25%);
+text-align: center;
+}
+
+main { padding-left: 50px;
+padding-right: 50px; 
+}
+
+nav { padding: 10px;
+text-align: center;
+}
+
+table, th, td {
+  border: 1px dashed black;
+}
+
+ul {
+	list-style-type: none;
+}
