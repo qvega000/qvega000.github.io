@@ -1,9 +1,9 @@
 a { color: #33A1FD;
 }
 
-body { background-color: #F79824;
+body { background-color: #EF8354;
 color: hsl(360, 25%, 25%);
-font-family: 'Tapestry', cursive;
+font-family: 'Anton', sans-serif;
 font-size: 15px;
 border: 2px solid hsl(360, 25%, 25%);
 margin: 1% 5%;
@@ -20,7 +20,7 @@ font-style: italic
 li { margin: 5px 0px;
 }
 
-footer { border-top: 2px solid #33A1FD;
+footer { border-top: 2px solid #274C77;
 text-align: center;
 }
 
