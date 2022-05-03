@@ -1,7 +1,7 @@
 html {
 	margin: auto;
 	font-family: 'Playfair Display SC', serif;
-	background-image: url("https://qvega000.github.io/web115/images/brand_background.png");
+	background-image: url("https://qvega000.github.io/web215/images/brand_background.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
@@ -16,16 +16,16 @@ body  {
 
 }
 
-h1 { color: #10497E;
+h1 { color: #01BAEF;
 }
 
-h2 { color: #0D3B66;
+h2 { color: #0B4F6C;
 }
 
-h3 { color: #092A48;
+h3 { color: #0F5727;
 }
 
-p { color: #071F36;
+p { color: #3D3D3D;
 }
 
 table, th, td {
