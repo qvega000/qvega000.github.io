@@ -1,0 +1,66 @@
+html {
+	margin: auto;
+	font-family: 'Playfair Display SC', serif;
+	background-image: url("https://qvega000.github.io/web115/images/brand_background.png");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+body  {
+	margin: 0 20%;
+	background-color: #DEE2E6;
+	opacity: 0.9;
+	text-align: center;
+	color: black;
+
+}
+
+h1 { color: #10497E;
+}
+
+h2 { color: #0D3B66;
+}
+
+h3 { color: #092A48;
+}
+
+p { color: #071F36;
+}
+
+table, th, td {
+  border: 1px solid black;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+/* Fizz Buzz 0 */
+
+#counter {
+	list-style-type: none;
+	padding: 5px;
+	column-count: 4;
+	column-gap: 10px;
+}
+

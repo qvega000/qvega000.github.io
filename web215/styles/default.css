@@ -3,7 +3,7 @@ a { color: #33A1FD;
 
 body { background-color: #F79824;
 color: hsl(360, 25%, 25%);
-font-family: 'Tapestry', cursive;;
+font-family: 'Tapestry', cursive;
 font-size: 15px;
 border: 2px solid hsl(360, 25%, 25%);
 margin: 1% 5%;
