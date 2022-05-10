@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Course Introduction Form - WEB215 - Quentin Vega</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles/default.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<script src="scripts/introduction_form.js"></script>
+	</head>
+	<body>
+		<div data-include ="components/header.html"></div>
+		<main id='IntroForm'>
+			<h2>Course Introduction Form</h2>
+			<figure>
+				<img src ="images/standing_behind_bonfire.png" alt ="Picture of Quentin Vega." width="189" height="252"/>
+				<figcaption>Me Standing Behind a Bonfire</figcaption>
+			</figure>
+			<form>
+				<label for="firstName">First Name:</label>
+				<br>
+				<textarea id="firstName" required>Quentin</textarea>
+				<br/>
+				<label for="lastName">Last Name:</label>
+				<br/>
+				<textarea id="lastName" required>Vega</textarea>
+				<br/>
+				<label for="personalBackground">Personal Background:</label>
+				<br/>
+				<textarea id="personalBackground" rows="10" cols="50">Born and raised in Monroe, NC, graduated from Monroe High School. Currently living in Matthews, NC with my girlfriend, future wife, and my son.</textarea>
+				<br/>
+				<label for="professionalBackground">Professional Background:</label>
+				<br/>
+				<textarea id="professionalBackground" rows="10" cols="50">High school graduate, and worked in the food customer services under, Bojangles and Taco Bell. Now I am a security guard with Allied Universal. I have also served five and a half years in the North Carolina Army National Guard. Qualified Gunner for a Bradley Fighting Vehicle, and a Small Unmanned Aircraft Systems (SUAS) Operator. Recently deployed to the Kuwait for 10 months.</textarea>
+				<br/>
+				<label for="computerPlatform">Primary Computer Platform:</label>
+				<br/>
+				<textarea id="computerPlatform" rows="10" cols="50">HP Pavilion Gaming Desktop, Intel i5-9400 @ 2.90 GHz, 8GB of RAM, one HP monitor, and one LG monitor.</textarea>
+				<br/>
+				<label for="coursesTaken">Courses I’m Taking, & Why:</label>
+				<br/>
+				<textarea id="coursesTaken" rows="10" cols="50">WEB115 Web Markup and Scripting - Number one reason is because it is in my catalog, But I also want to learn how to develop and maintain a website.
+					MAT121 Algebra/Trigonometry - I am taking this class beacuse it is a general eduacation class in my program of study.
+					DBA120 Database Programming 1 - I am taking this class beacuse it is the back-end developer portion in full-stack programming.
+					Python Programming - I am taking this class because it is a fundamental language to learn in the programming field.
+				</textarea>
+				<br/>
+				<label for="rememberMe">Something to Remember Me By:</label>
+				<br/>
+				<textarea id="rememberMe" rows="10" cols="50">In my younger years, I have broken my two front teeth multiple times to where only about 10% of my two teeth is original.</textarea>
+				<br/>
+				<input type="button" id="submit" onclick="return getData()" value="Submit" /><br>
+			</form>
+			<div>
+				<ul id="displayData"></ul>
+			</div>
+		</main>
+		<div data-include ="components/footer.html"></div>
+		<script src ="scripts/html_include.js"></script>
+	</body>
+</html>
