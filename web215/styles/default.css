@@ -39,3 +39,7 @@ table, th, td {
 ul {
 	list-style-type: none;
 }
+
+#IntroForm {
+	text-align: center;
+}
