@@ -13,6 +13,9 @@ function getData()
 }
 function displayData(data)
 {
+	clearLi = document.querySelectorAll('form');
+	clearLi.forEach((form) => form.remove())
+  
 	for (var i = 0; i <= data.length; i++)		
 	{
 
